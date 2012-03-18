@@ -1,0 +1,10 @@
+class ClassName(osv.osv):
+    _inherit = '${1:model.openerp}'
+    _description = "${2}"
+    _columns = {
+        '${3:name}':fields.char('${4:Name}', ${5:64}, required=False, readonly=False),
+    }
+    _defaults = {
+        '$3': lambda *a: None,
+    }
+ClassName()
