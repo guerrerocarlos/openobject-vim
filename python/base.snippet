@@ -1,5 +1,5 @@
-	'':fields.char('Label', 64, required=False, readonly=False,help=''),
+	'${1:name}':fields.char('${2:Label}', ${3:64}, required=${4:False}, readonly=${5:False},help='${6}'),
 	#TODO : import time required to get currect datetime
-	'datetime': fields.datetime('Date'),
-	'number': fields.float('Label', digits_compute=dp.get_precision('Account')),
-	'_id':fields.many2one('openerp.model', 'Label', required=False),
+	'${7:datetime}': fields.datetime('${8:Date}'),
+	'${9:number}': fields.float('${10:Label}', digits_compute=dp.get_precision('${11:Account}')),
+	'${12:_id}':fields.many2one('${13:openerp.model}', '${14:Label}', required=${15:False}),
