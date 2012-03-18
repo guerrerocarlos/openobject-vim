@@ -27,9 +27,9 @@ That's all, now you have all these snippets:
 HOW TO USE:
 -----------
 For example, open a new .py file and write
-class_osv<Press-TAB>
+class_osv Press-TAB
 
-You will get a new osv class ready to be filled, press <TAB> again to jump 
+You will get a new osv class ready to be filled, press TAB again to jump 
 to the next field that needs to be filled. 
 
 [1]: http://vim.sourceforge.net/scripts/script.php?script_id=2540
